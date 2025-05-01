@@ -1,0 +1,42 @@
+span {
+    color: red;
+  }
+  
+  .instructions {
+    background-color: pink;
+  }
+  
+  img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    text-align: center;
+    border: black 10px solid;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  img:hover {
+    animation: bounce 1s;
+  }
+  
+  @keyframes bounce {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+  
